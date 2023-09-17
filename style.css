@@ -1,0 +1,53 @@
+body{
+    background: #242424;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.menu{
+    width: max-content;
+    height: 50px;
+    background: #023b46;
+    margin:auto;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 0 30px 0 30px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+}
+
+.menu ul li a:hover{
+    background: #D2E4F9;
+    color: #2384F4;
+}
+
+.menu ul li ul li{
+    float: none;
+}
+
+.menu ul li ul{
+    display: none;
+    position: static;
+    list-style-type: none;
+    background: #5791b8;
+    padding: 0;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
